@@ -19,10 +19,10 @@ body {
 header {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;	
+	justify-content: space-between;
 	align-items: center;
-	width: 900px;
-	margin-left: 100px;
+	width: 950px;
+	margin-left: 50px;
 }
 							/*Логотип*/
 .logo {
@@ -30,26 +30,27 @@ header {
 	flex-direction: row;
 	justify-content: center;
 	font-size: 25px;
-	font-family: 'OpenSans Semibold',sans-serif;
 }
 
 #company {
 	display: flex;
-	align-self: center;
+	align-self: baseline;
+    font-family: "OpenSans Light", sans-serif;
 	color: #EE8129;
+    font-weight: 300;
 	margin: 5px;
 }
 
 #name {
 	display: flex;
-    align-self: center;
-	font-weight: bold;
-	color: #3070A8;
+    align-self: baseline;
+    color: #3070A8;
 	margin: 5px;
-	font-weight: 700;
+    font-family: "OpenSans Semibold", sans-serif;
+	font-weight: 800;
+    font-size: 30px;
 }
 							/*Меню*/
-
 #dws-menu,
 header label {
 	display: none;
@@ -65,37 +66,33 @@ header label {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-self: flex-end;
-	font-family: "Varela", sans-serif;
 	font-size: 10px;
 	color: #A3A3A3;
-	font-family: "OpenSans Regular", "Trebuchet MS Bold", sans-serif;
-	font-weight: 400;
+	font-family: "Open Sans SemiBold", sans-serif;
+    margin: 0;
 }
 
 #menu .menu_li{
 	list-style: none;
-	margin: 10px;
+	margin: 10px 10px 0 10px;
 }
 
 a {
+    display: block;
 	font-size: 15px;
 	color: #A3A3A3;
-	font-family: OpenSans Regular, Trebuchet MS Bold, sans-serif;
+    padding: 10px;
 	text-decoration: none;
-	line-height: 2;
+	line-height: 4;
+    border-bottom: solid 4px #FFFFFF;
 }
-.menu_li {
-	display: block;
-	padding-bottom: 3px;
-}
+
 .menu_li:hover > a {
+    display: block;
 	position: relative;
-	/*border-bottom: solid 2px;*/
-	color: #3070A8;
-	line-height: 2;
-
+	border-bottom: solid 4px #3070A8;
+    color: #3070A8;
 }
-
 
 /*Слайдер*/
 
@@ -204,7 +201,7 @@ a {
 	align-self: center;
 	align-items: center;
 	padding: 25px;
-	font-family: OpenSans Regular, Trebuchet MS Bold, sans-serif;
+	font-family: "OpenSans Regular", "Trebuchet MS Bold", sans-serif;
 	color: #999999;
 	line-height: 1.5;
 }
@@ -219,6 +216,7 @@ a {
 span {
  text-align: center;
 }
+
 .span_text {
 color: red;
 }
@@ -252,8 +250,8 @@ color: red;
 	display: flex;
 	justify-content: flex-start; 
 	color: #EE8129;
-	font-family: OpenSans Light, Trebuchet MS Light, sans-serif;
-	/*text-shadow: 0, 0, 0.5, 0 #7E4D25;*/
+	font-family: "OpenSans Light", "Trebuchet MS Light", sans-serif;
+	text-shadow: 0 0  1px  0  #7E4D25;
 	text-transform: uppercase;
 	font-size: 22px;
 	line-height: 2;
