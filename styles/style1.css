@@ -381,7 +381,7 @@ color: red;
   line-height: 2;
 }
 
-.iconic_garafics  {
+.iconic_grafics  {
 	font-size: 25px;
 	text-align: center;
 	color: #3F4042;
@@ -517,7 +517,7 @@ align-self: flex-end;
 	margin: 20px;
 }
 
-.name-costomer {
+.name-customer {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -554,14 +554,17 @@ align-self: flex-end;
 	margin: 10px;
 	border: 1px solid #ffffff;
 }
-
+#stacia-photo, #david-photo {
+	width: 99px;
+	height: 98px;
+}
 .staciya-customer, .david-customer {
 	display: flex;
 	color: #3070A8;
 	margin: 10px;
 }
 
-#lorem {
+.comment-text {
 	display: flex;
 	justify-content: space-between;
 	color: #666666;
