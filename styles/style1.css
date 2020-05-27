@@ -1,7 +1,7 @@
-html{
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+html {
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -10,12 +10,12 @@ body {
 	flex-direction: column;
 	align-items: center;
 	width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-	}
+	max-width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
 
-      						/*Шапка*/
+/*Шапка*/
 header {
 	display: flex;
 	flex-direction: row;
@@ -24,7 +24,7 @@ header {
 	width: 950px;
 	margin-left: 50px;
 }
-							/*Логотип*/
+/*Логотип*/
 .logo {
 	display: flex;
 	flex-direction: row;
@@ -35,22 +35,22 @@ header {
 #company {
 	display: flex;
 	align-self: baseline;
-    font-family: "OpenSans Light", sans-serif;
+	font-family: "OpenSans Light", sans-serif;
 	color: #EE8129;
-    font-weight: 300;
+	font-weight: 300;
 	margin: 5px;
 }
 
 #name {
 	display: flex;
-    align-self: baseline;
-    color: #3070A8;
+	align-self: baseline;
+	color: #3070A8;
 	margin: 5px;
-    font-family: "OpenSans Semibold", sans-serif;
+	font-family: "OpenSans Semibold", sans-serif;
 	font-weight: 800;
-    font-size: 30px;
+	font-size: 30px;
 }
-							/*Меню*/
+/*Меню*/
 #dws-menu,
 header label {
 	display: none;
@@ -69,7 +69,7 @@ header label {
 	font-size: 10px;
 	color: #A3A3A3;
 	font-family: "Open Sans SemiBold", sans-serif;
-    margin: 0;
+	margin: 0;
 }
 
 #menu .menu_li{
@@ -78,20 +78,20 @@ header label {
 }
 
 a {
-    display: block;
+	display: block;
 	font-size: 15px;
 	color: #A3A3A3;
-    padding: 10px;
+	padding: 10px;
 	text-decoration: none;
 	line-height: 4;
-    border-bottom: solid 4px #FFFFFF;
+	border-bottom: solid 4px #FFFFFF;
 }
 
 .menu_li:hover > a {
-    display: block;
+	display: block;
 	position: relative;
 	border-bottom: solid 4px #3070A8;
-    color: #3070A8;
+	color: #3070A8;
 }
 
 /*Слайдер*/
@@ -103,7 +103,6 @@ a {
 	background-position: center center;
 	width: 100%;
 	height: 100%;
-	top: 30px;
 	background-image: url('../img/Layer93.png');
 	background-size: cover;
 	color: #fff;
@@ -111,12 +110,9 @@ a {
 	align-items:center;
 	font-family: sans-serif;
 	margin: 0;
-	left: 0;
-	right: 0;
 }
 
-
-.text {
+.intro_text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -124,30 +120,33 @@ a {
 	margin: 150px 0 0 0;
 }
 
-.we {
+.intro_text :nth-child(1) {
 	font-size: 30px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Alata', sans-serif;
 	line-height: 1.5;
 	margin: 0;
 }
 
-.resp {
+.intro_text :nth-child(2) {
 	font-size: 40px;
 	font-weight: 800;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 1.5;
+	font-family: 'Open Sans ExtraBold', sans-serif;
+	line-height: 1.2;
 	margin: 0;
 }
 
-.lorem {
+.intro_text :nth-child(3) {
+	align-self: center;
 	font-size: 18px;
-    font-family: 'Calibri', sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    text-shadow: 1px 1px 1px black;
-    line-height: 1.5;
+	font-family: 'Calibri', sans-serif;
+	font-weight: 400;
+	font-style: italic;
+	text-shadow: 0 1px 1px black;
+	line-height: 1.3;
+	margin: 20px;
+	max-width: 500px;
 }
-							/*Кнопка*/
+/*Кнопка*/
 #button {
 	color: #fff;
 	font-size: 15px;
@@ -164,7 +163,7 @@ a {
 #button:hover {
 	background-color: #3070A8;
 }
-							/*Сервисы*/
+/*Сервисы*/
 .services_section {
 	display: flex;
 	flex-direction: column;
@@ -185,12 +184,12 @@ a {
 	margin: 30px 0 30px 0;
 }
 
-.services_h1 {
+.services_title {
 	font-family: "Trebuchet MS Bold", sans-serif;
 	text-transform: uppercase;
 	font-size: 26px;
 	color: #41525C;
-	text-align: center;	
+	text-align: center;
 	margin-top: 50px;
 }
 
@@ -206,19 +205,19 @@ a {
 	line-height: 1.5;
 }
 
-.services_h2 {
-	font-family: OpenSans Regular, Trebuchet MS Bold, sans-serif;
+.service_appellation {
+	font-family: "OpenSans Regular", "Trebuchet MS Bold", sans-serif;
 	font-size: 23px;
 	color: #3070A8;
 	margin: 20px;
 }
 
 span {
- text-align: center;
+	text-align: center;
 }
 
 .span_text {
-color: red;
+	color: red;
 }
 
 .services_img {
@@ -248,7 +247,7 @@ color: red;
 }
 .middle_section_h1 {
 	display: flex;
-	justify-content: flex-start; 
+	justify-content: flex-start;
 	color: #EE8129;
 	font-family: "OpenSans Light", "Trebuchet MS Light", sans-serif;
 	text-shadow: 0 0  1px  0  #7E4D25;
@@ -261,41 +260,41 @@ color: red;
 }
 
 .middle_section_h2 {
-    display: flex;
-    justify-content: flex-start;
+	display: flex;
+	justify-content: flex-start;
 	color: #FFFFFF;
 	font-family: 'Calibri', sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    text-shadow: 1px 1px 2px black;
+	font-weight: 300;
+	font-style: italic;
+	text-shadow: 1px 1px 2px black;
 	font-size: 20px;
-	line-height: 2;	
+	line-height: 2;
 }
 
 .middle_section_ul {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	font-size: 14px;
 	list-style: disc;
 	font-family: sans-serif;
 	width: 620px;
 }
 
-.middle_section_li {
+.middle_section_list {
 	list-style: disc;
 	color: #9D9D9D;
 	line-height: 1.7;
 	margin: 10px;
 }
 
-.middle_section_li2 {
-	position: relative;
+.middle_section_list:hover {
 	list-style: disc;
 	color: #3070A8;
-	line-height: 2;
+	line-height: 1.7;
 	margin: 10px;
+	cursor: pointer;
 }
-						/*З формы предложений*/
+/*З формы предложений*/
 .offers {
 	display: flex;
 	justify-content: center;
@@ -318,21 +317,21 @@ color: red;
 	justify-content: center;
 	margin: 30px;
 }
-						
+
 .offer_form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #2AC2D5;
-  border-radius: 6px;
-  width: 280px;
-  height: auto;
-  position: relative;
-  font-family: "Trebuchet MS", sans-serif;
-  margin: 3px;
- }
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #2AC2D5;
+	border-radius: 6px;
+	width: 280px;
+	height: auto;
+	position: relative;
+	font-family: "Trebuchet MS", sans-serif;
+	margin: 3px;
+}
 
 .form_best {
 	border-color: #EE8129;
@@ -343,42 +342,42 @@ color: red;
 }
 
 .offer_form:hover {
-  display: flex;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05); 
-  transition: 300ms;
-  border-width: 4px;
-  z-index: 1;
-  opacity: 1;
-  margin: 0;
- }  
+	display: flex;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: 300ms;
+	border-width: 4px;
+	z-index: 1;
+	opacity: 1;
+	margin: 0;
+}
 
 .header_standart {
-  background-color: #2AC2D5;
-  color: #ffffff;
-  width: 280px;
-  text-align: center;
-  font-size: 27px;
-  line-height: 2;
+	background-color: #2AC2D5;
+	color: #ffffff;
+	width: 280px;
+	text-align: center;
+	font-size: 27px;
+	line-height: 2;
 }
 
 .header_best {
-  background-color: #EF8128;
-  color: #FAFDFE;
-  width: 280px;
-  text-align: center;
-  font-size: 27px;
-  line-height: 2;
+	background-color: #EF8128;
+	color: #FAFDFE;
+	width: 280px;
+	text-align: center;
+	font-size: 27px;
+	line-height: 2;
 }
 
 .header_ultimate {
-  background-color: #13B89A;
-  color: #FAFDFE;
-  width: 280px;
-  text-align: center;
-  font-size: 27px;
-  line-height: 2;
+	background-color: #13B89A;
+	color: #FAFDFE;
+	width: 280px;
+	text-align: center;
+	font-size: 27px;
+	line-height: 2;
 }
 
 .iconic_grafics  {
@@ -394,21 +393,21 @@ color: red;
 }
 
 .monthly {
-display: flex;
-align-self: flex-end;
-  font-size: 18px;
-  font-family: "Trebuchet MS", sans-serif;
-  color: rgb(53, 73, 90);
-  bottom: 10px;
+	display: flex;
+	align-self: flex-end;
+	font-size: 18px;
+	font-family: "Trebuchet MS", sans-serif;
+	color: rgb(53, 73, 90);
+	bottom: 10px;
 
 }
 
 .dollar_sign {
-  font-size: 26px;
-  font-family: "Trebuchet MS",sans-serif;
-  color: rgb(53, 73, 90);
-  font-weight: bold;
-  text-transform: uppercase;
+	font-size: 26px;
+	font-family: "Trebuchet MS",sans-serif;
+	color: rgb(53, 73, 90);
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
 .cost {
@@ -416,48 +415,48 @@ align-self: flex-end;
 	flex-direction: row;
 	align-self: center;
 	font-size: 75px;
- 	font-family: "Trebuchet MS", sans-serif;
- 	color: rgb(53, 73, 90);
- 	font-weight: bold;
- 	text-transform: uppercase;
- 	text-align: center;
- 	margin: 0;
+	font-family: "Trebuchet MS", sans-serif;
+	color: rgb(53, 73, 90);
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
 }
 
 .button_enroll_today {
 	display: flex;
 	justify-content: center;
 	align-self: center;
-    width: 235px;
-    height: 40px;
-    font-size: 14px;
-    font-family: "Trebuchet MS", sans-serif;
-    color: #FAFDFE;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-color:  #2F70A8;
-    border-radius: 5px;
-    background-color: #2F70A8;
-    box-shadow: 0 2px 0 0 #13426B;
-    margin-bottom:  15px;
-    cursor: pointer;
+	width: 235px;
+	height: 40px;
+	font-size: 14px;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #FAFDFE;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-color:  #2F70A8;
+	border-radius: 5px;
+	background-color: #2F70A8;
+	box-shadow: 0 2px 0 0 #13426B;
+	margin-bottom:  15px;
+	cursor: pointer;
 }
 
 .list {
-  display: inline-block;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: "Trebuchet MS", sans-serif;
-  color: #888C94;
-  line-height: 2;
-  width: 255px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #888C94;
+	line-height: 2;
+	width: 255px;
 }
 
 .offers_li {
 	list-style: none;
 	border: 1px solid  #FFFFFF;
-    position: relative;
-    right: 25px;   
+	position: relative;
+	right: 25px;
 }
 
 .check_mark {
@@ -478,7 +477,7 @@ align-self: flex-end;
 .offers_li:nth-child(odd) {
 	background-color: #EDF5FD;
 }
-							/*Коментарии*/
+/*Коментарии*/
 .comments {
 	display: flex;
 	flex-direction: column;
@@ -496,7 +495,7 @@ align-self: flex-end;
 	color: #3170A8;
 	font-family: sans-serif;
 	line-height: 2;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
 #what {
@@ -522,9 +521,9 @@ align-self: flex-end;
 	flex-direction: row;
 	justify-content: space-between;
 	font-family: 'Calibri', sans-serif;
-    font-weight: 300;
-    font-style: italic;
-    letter-spacing: initial;
+	font-weight: 300;
+	font-style: italic;
+	letter-spacing: initial;
 }
 
 .staciya-name {
@@ -582,12 +581,12 @@ align-self: flex-end;
 	align-items: center;
 	margin: 20px;
 }
-							/*контакты*/
+/*контакты*/
 .contacts {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .coordinates {
@@ -609,8 +608,8 @@ ul li {
 }
 
 .coordinat-li{
-font-weight: 400;
-list-style: none;
+	font-weight: 400;
+	list-style: none;
 }
 
 .coordinat-li-phone:before {
@@ -623,7 +622,7 @@ list-style: none;
 	position: absolute;
 	width: 31px;
 	height: 31px;
-    content: url(../img/pin.png);
+	content: url(../img/pin.png);
 	margin-left: -50px;
 }
 .coordinat-li-mail:before {
@@ -634,7 +633,7 @@ list-style: none;
 
 #pin {
 	height: 32px;
-	width: 32px;	
+	width: 32px;
 }
 
 .social {
@@ -653,7 +652,7 @@ list-style: none;
 	border: none;
 	margin-right: 10px;
 }
-							/*футер*/
+/*футер*/
 footer {
 	display: flex;
 	flex-direction: row;
