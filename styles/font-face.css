@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Futura Bk BT Book";
+    src: url("../fonts/Futura/Futura_Bk_BT_Book.otf") format('truetype');
+}
+
+@font-face {
+    font-family: "Futura Md BT Bold";
+    src: url("../fonts/Futura/Futura_Md_BT_Bold.otf") format('truetype');
+}
+
